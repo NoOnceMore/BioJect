@@ -151,6 +151,7 @@ body {
   .btn {
     width: 100%;
     height: auto;
+    font-size: 18px;
 }
 
 .imgeiei {
@@ -195,4 +196,5 @@ body {
 #mairu {
   margin-left: 60px;
 }
+
 
