@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "kanit";
+  src: url("./Kanit/Kanit-Regular.ttf");
+}
+
+body {
+  font-size: 22px;
+  font-family: "kanit";
+  margin: 0;
+  background-color: #1B1B1D;
+  color: #f1f1f1;
+}
+
+.btn {
+  background-color: burlywood; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 30px 500px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 48px;
+}
+
+.btn:hover {
+  list-style-type: none;
+  background-color: blueviolet;
+  color: white;
+}
+
+#img1crop {
+  width: 500px;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#img2crop {
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.docsbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  font-size: 18px;
+  background-color: #1B1B1D;
+  color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-right: #8d8d8d solid 2px;
+}
+
+.docsbar li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.docsbar li a.active {
+  background-color: #272729;
+  color: white;
+}
+
+.docsbar li a:hover:not(.active) {
+  background-color: #555555;
+  color: white;
+}
+
+.sidedocs {
+  margin-left: 300px;
+  margin-right: 100px;
+  padding: 1px 16px;
+  height: auto;
+}
+
+.navnext {
+  padding: 18px 128px;
+  border: 1px solid rgb(106, 106, 106);
+  color: seashell;
+  border-radius: 12px;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+}
+
+.navnext:hover {
+  border-color: #25C2A0;
+  background-color: #272729;
+  color: white;
+}
+
+.navprev {
+  padding: 18px 128px;
+  color: seashell;
+  border: 1px solid rgb(106, 106, 106);
+  border-radius: 12px;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+}
+
+.navprev:hover {
+  border-color: #25C2A0;
+  background-color: #272729;
+  color: white;
+}
+
+.middle {
+  text-align: center;
+}
+
+.content {
+  padding: 50px;
+  border-radius: 12px;
+  border: #5d5d5d solid 1px;
+}
+
+#micropyle {
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .docsbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid #333;
+  }
+  
+  .sidedocs {
+    margin-left: 0;
+    padding: 20px;
+  }
+  
+  #img1crop, #img2crop {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.imgeiei {
+  border-radius: 12px;
+  margin: 30px;
+}
+
+#linkja {
+  text-decoration: none;
+  color: white;
+  background-color: #272729;
+  border: 1px solid greenyellow;
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-left: 40px;
+  font-size: 50px;
+  text-align: center;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#special {
+  text-decoration: none;
+  color: white;
+  background-color: #272729;
+  border: 1px solid rgb(255, 109, 47);
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#linkja:hover, #special:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+
+#mairu {
+  margin-left: 60px;
+}
